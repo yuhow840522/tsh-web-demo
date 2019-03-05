@@ -142,31 +142,25 @@ img {
 
 #mu-header .mu-header-area .mu-header-top-left {
   display: inline;
-  float: left;
-  width: 100%;
 }
 
-#mu-header .mu-header-area .mu-header-top-left .mu-top-email {
-  display: inline;
-  float: left;
+#mu-header .mu-header-area .mu-header-top-left .mu-top-contact-nav {
+  display: inline-block;
+
+}
+
+#mu-header .mu-header-area .mu-header-top-left .mu-top-contact-nav li {
+  display: inline-block;
+}
+#mu-header .mu-header-area .mu-header-top-left .mu-top-contact-nav li a {
+  display: inline-block;
   font-size: 14px;
-}
-
-#mu-header .mu-header-area .mu-header-top-left .mu-top-email i {
-  margin-right: 5px;
-}
-
-#mu-header .mu-header-area .mu-header-top-left .mu-top-phone {
-  border-left: 1px solid #ddd;
-  display: inline;
-  font-size: 14px;
-  float: left;
-  margin-left: 15px;
-  padding-left: 15px;
-}
-
-#mu-header .mu-header-area .mu-header-top-left .mu-top-phone i {
-  margin-right: 5px;
+  padding: 0 8px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 #mu-header .mu-header-area .mu-header-top-right {
