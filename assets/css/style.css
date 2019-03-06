@@ -69,7 +69,7 @@ a:focus {
   outline: none;
   text-decoration: none;
 }
-
+/* 
 h1,
 h2,
 h3,
@@ -77,7 +77,7 @@ h4,
 h5,
 h6 {
   font-family: "Montserrat", sans-serif;
-}
+} */
 
 h2 {
   font-size: 30px;
@@ -113,11 +113,11 @@ img {
   margin-top: 10px;
   padding: 10px 20px;
   text-transform: uppercase;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -ms-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  transition: all 0.3s;
+  -webkit-transition: all 0.45s;
+  -moz-transition: all 0.45s;
+  -ms-transition: all 0.45s;
+  -o-transition: all 0.45s;
+  transition: all 0.45s;
 }
 
 .tsh-read-more-btn:hover,
@@ -134,11 +134,11 @@ img {
   display: inline-block;
   font-size: 16px;
   padding: 10px 18px;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: all 0.45s;
+  -moz-transition: all 0.45s;
+  -ms-transition: all 0.45s;
+  -o-transition: all 0.45s;
+  transition: all 0.45s;
 }
 
 .tsh-post-btn:hover,
@@ -186,11 +186,11 @@ HEADER SECTION
   display: inline-block;
   font-size: 14px;
   padding: 0 8px;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -ms-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  transition: all 0.3s;
+  -webkit-transition: all 0.45s;
+  -moz-transition: all 0.45s;
+  -ms-transition: all 0.45s;
+  -o-transition: all 0.45s;
+  transition: all 0.45s;
 }
 
 /* bootstrap 4.2.1 revise for header */
@@ -214,12 +214,11 @@ NAVBAR SECTION
 
 #tsh-menu .navbar-header .navbar-brand {
   color: #333;
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
   font-size: 26px;
   font-weight: bold;
   text-transform: uppercase;
-  /* padding-top: 20px; */
-  letter-spacing: 0.5px;
+  letter-spacing: 0.45px;
 }
 
 #tsh-menu .navbar-header .navbar-brand i {
@@ -243,12 +242,22 @@ NAVBAR SECTION
   padding-bottom: 25px;
   padding-top: 25px;
   margin-bottom: -1px;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: all 0.45s;
+  -moz-transition: all 0.45s;
+  -ms-transition: all 0.45s;
+  -o-transition: all 0.45s;
+  transition: all 0.45s;
 }
+
+#tsh-menu .navbar-default .navbar-nav li>a:hover {
+  background: #fc6262c7;
+  color: #fff;
+}
+#tsh-menu #tsh-search-icon:hover {
+  background: #fff;
+  color: #fc6262c7;
+}
+
 
 #tsh-menu .navbar-default .navbar-nav li #tsh-search-icon:hover,
 #tsh-menu .navbar-default .navbar-nav li #tsh-search-icon:focus {
@@ -257,6 +266,8 @@ NAVBAR SECTION
 
 #tsh-menu .navbar-default .navbar-nav li .dropdown-menu {
   border-radius: 0px;
+  padding: 0px; 
+  /* revise dropdown menu has white line */
 }
 
 #tsh-menu .navbar-default .navbar-nav li .dropdown-menu li a {
@@ -274,6 +285,7 @@ NAVBAR SECTION
 #tsh-menu .navbar-default .navbar-nav .open a:focus {
   color: #fff;
 }
+
 
 /* ALL SECTION */
 /*scrol to top*/
@@ -293,11 +305,11 @@ NAVBAR SECTION
   text-decoration: none;
   width: 50px;
   z-index: 999;
-  -webkit-transition: all 0.5s ease 0s;
-  -moz-transition: all 0.5s ease 0s;
-  -ms-transition: all 0.5s ease 0s;
-  -o-transition: all 0.5s ease 0s;
-  transition: all 0.5s ease 0s;
+  -webkit-transition: all 0.45s ease 0s;
+  -moz-transition: all 0.45s ease 0s;
+  -ms-transition: all 0.45s ease 0s;
+  -o-transition: all 0.45s ease 0s;
+  transition: all 0.45s ease 0s;
 }
 
 .scrollToTop i {
@@ -324,11 +336,11 @@ NAVBAR SECTION
   position: fixed;
   top: 0;
   transform: translateY(-100%) scale(0);
-  -webkit-transition: all 0.5s ease-in-out 0s;
-  -moz-transition: all 0.5s ease-in-out 0s;
-  -ms-transition: all 0.5s ease-in-out 0s;
-  -o-transition: all 0.5s ease-in-out 0s;
-  transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.45s ease-in-out 0s;
+  -moz-transition: all 0.45s ease-in-out 0s;
+  -ms-transition: all 0.45s ease-in-out 0s;
+  -o-transition: all 0.45s ease-in-out 0s;
+  transition: all 0.45s ease-in-out 0s;
   width: 100%;
   z-index: 99999;
 }
@@ -396,7 +408,7 @@ NAVBAR SECTION
 }
 
 #tsh-slider .tsh-slider-single .tsh-slider-img:after {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.45);
   content: '';
   position: absolute;
   left: 0;
@@ -446,7 +458,7 @@ NAVBAR SECTION
 
 #tsh-slider .tsh-slider-single .tsh-slider-content p {
   font-size: 18px;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.45px;
   line-height: 28px;
 }
 
@@ -632,7 +644,7 @@ NAVBAR SECTION
 
 .tsh-title p {
   color: #555;
-  letter-spacing: 0.3px;
+  letter-spacing: 0.45px;
   line-height: 1.7;
   padding: 0 120px;
 }
@@ -745,7 +757,7 @@ NAVBAR SECTION
 
 #tsh-features .tsh-features-area .tsh-features-content .tsh-single-feature p {
   font-size: 15px;
-  letter-spacing: 0.3px;
+  letter-spacing: 0.45px;
   line-height: 1.7;
 }
 
@@ -756,11 +768,11 @@ NAVBAR SECTION
   margin-top: 10px;
   padding: 5px 10px;
   text-transform: uppercase;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: all 0.45s;
+  -moz-transition: all 0.45s;
+  -ms-transition: all 0.45s;
+  -o-transition: all 0.45s;
+  transition: all 0.45s;
 }
 
 /*==================
@@ -842,11 +854,11 @@ NAVBAR SECTION
 .tsh-latest-course-single .tsh-latest-course-img .tsh-latest-course-imgcaption a {
   display: inline-block;
   float: left;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: all 0.45s;
+  -moz-transition: all 0.45s;
+  -ms-transition: all 0.45s;
+  -o-transition: all 0.45s;
+  transition: all 0.45s;
 }
 
 .tsh-latest-course-single .tsh-latest-course-img .tsh-latest-course-imgcaption span {
@@ -871,16 +883,16 @@ NAVBAR SECTION
 
 .tsh-latest-course-single .tsh-latest-course-single-content h4 a {
   color: #333;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: all 0.45s;
+  -moz-transition: all 0.45s;
+  -ms-transition: all 0.45s;
+  -o-transition: all 0.45s;
+  transition: all 0.45s;
 }
 
 .tsh-latest-course-single .tsh-latest-course-single-content p {
   font-size: 14px;
-  letter-spacing: 0.3px;
+  letter-spacing: 0.45px;
   line-height: 1.7;
 }
 
@@ -896,11 +908,11 @@ NAVBAR SECTION
 .tsh-latest-course-single .tsh-latest-course-single-content .tsh-latest-course-single-contbottom .tsh-course-details {
   display: inline-block;
   float: left;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: all 0.45s;
+  -moz-transition: all 0.45s;
+  -ms-transition: all 0.45s;
+  -o-transition: all 0.45s;
+  transition: all 0.45s;
 }
 
 .tsh-latest-course-single .tsh-latest-course-single-content .tsh-latest-course-single-contbottom .tsh-course-details:hover,
@@ -990,11 +1002,11 @@ NAVBAR SECTION
   right: 0;
   text-align: center;
   top: 0;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: all 0.45s;
+  -moz-transition: all 0.45s;
+  -ms-transition: all 0.45s;
+  -o-transition: all 0.45s;
+  transition: all 0.45s;
 }
 
 #tsh-our-teacher .tsh-our-teacher-area .tsh-our-teacher-content .tsh-our-teacher-single .tsh-our-teacher-img .tsh-our-teacher-social a {
@@ -1004,18 +1016,18 @@ NAVBAR SECTION
   font-size: 18px;
   height: 40px;
   line-height: 40px;
-  margin: 0 5px;
+  margin: 0.45px;
   width: 40px;
   -moz-transform: translateY(-1000%);
   -o-transform: translateY(-1000%);
   -ms-transform: translateY(-1000%);
   -webkit-transform: translateY(-1000%);
   transform: translateY(-1000%);
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: all 0.45s;
+  -moz-transition: all 0.45s;
+  -ms-transition: all 0.45s;
+  -o-transition: all 0.45s;
+  transition: all 0.45s;
 }
 
 #tsh-our-teacher .tsh-our-teacher-area .tsh-our-teacher-content .tsh-our-teacher-single .tsh-our-teacher-img .tsh-our-teacher-social a:hover,
@@ -1125,7 +1137,7 @@ NAVBAR SECTION
   color: #fff;
   font-size: 16px;
   font-style: italic;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.45px;
   line-height: 1.8;
   margin-bottom: 0;
 }
@@ -1161,7 +1173,7 @@ NAVBAR SECTION
 
 #tsh-testimonial .tsh-testimonial-area .tsh-testimonial-content .tsh-testimonial-item .tsh-testimonial-info span {
   font-size: 14px;
-  letter-spacing: 0.3px;
+  letter-spacing: 0.45px;
 }
 
 #tsh-testimonial .tsh-testimonial-area .tsh-testimonial-content .slick-dots li {
@@ -1224,11 +1236,11 @@ NAVBAR SECTION
 }
 
 .tsh-blog-single-item .tsh-blog-single-img .tsh-blog-caption h3 a {
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: all 0.45s;
+  -moz-transition: all 0.45s;
+  -ms-transition: all 0.45s;
+  -o-transition: all 0.45s;
+  transition: all 0.45s;
 }
 
 .tsh-blog-single-item .tsh-blog-meta {
@@ -1242,13 +1254,13 @@ NAVBAR SECTION
 .tsh-blog-single-item .tsh-blog-meta a {
   display: inline-block;
   float: left;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.45px;
   margin-right: 10px;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: all 0.45s;
+  -moz-transition: all 0.45s;
+  -ms-transition: all 0.45s;
+  -o-transition: all 0.45s;
+  transition: all 0.45s;
 }
 
 .tsh-blog-single-item .tsh-blog-meta span {
@@ -1268,7 +1280,7 @@ NAVBAR SECTION
 
 .tsh-blog-single-item .tsh-blog-description p {
   font-size: 15px;
-  letter-spacing: 0.3px;
+  letter-spacing: 0.45px;
   line-height: 1.7;
 }
 
@@ -1371,14 +1383,14 @@ NAVBAR SECTION
   display: inline-block;
   font-size: 15px;
   font-weight: normal;
-  padding: 5px 0 5px 15px;
+  padding: 5px 0.45px 15px;
   position: relative;
   text-transform: capitalize;
-  -webkit-transition: all 0.5s ease 0s;
-  -moz-transition: all 0.5s ease 0s;
-  -ms-transition: all 0.5s ease 0s;
-  -o-transition: all 0.5s ease 0s;
-  transition: all 0.5s ease 0s;
+  -webkit-transition: all 0.45s ease 0s;
+  -moz-transition: all 0.45s ease 0s;
+  -ms-transition: all 0.45s ease 0s;
+  -o-transition: all 0.45s ease 0s;
+  transition: all 0.45s ease 0s;
 }
 
 #tsh-course-content .tsh-course-content-area .tsh-sidebar .tsh-single-sidebar .tsh-sidebar-catg li a:hover,
@@ -1411,11 +1423,11 @@ NAVBAR SECTION
 }
 
 #tsh-course-content .tsh-course-content-area .tsh-sidebar .tsh-single-sidebar .tsh-sidebar-popular-courses .media .media-body .media-heading a {
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: all 0.45s;
+  -moz-transition: all 0.45s;
+  -ms-transition: all 0.45s;
+  -o-transition: all 0.45s;
+  transition: all 0.45s;
 }
 
 #tsh-course-content .tsh-course-content-area .tsh-sidebar .tsh-single-sidebar .tsh-sidebar-popular-courses .media .media-body .popular-course-price {
@@ -1441,14 +1453,14 @@ NAVBAR SECTION
   border-bottom: 1px solid #ccc;
   display: inline-block;
   font-size: 15px;
-  letter-spacing: 0.3px;
-  margin: 0 5px 10px;
+  letter-spacing: 0.45px;
+  margin: 0.45px 10px;
   padding: 5px;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: all 0.45s;
+  -moz-transition: all 0.45s;
+  -ms-transition: all 0.45s;
+  -o-transition: all 0.45s;
+  transition: all 0.45s;
 }
 
 #tsh-course-content .tsh-course-content-area .tsh-course-details {
@@ -1519,12 +1531,12 @@ NAVBAR SECTION
 
 .tsh-pagination .pagination li a {
   color: #333;
-  margin: 0 5px;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
+  margin: 0.45px;
+  -webkit-transition: all 0.45s;
+  -moz-transition: all 0.45s;
+  -ms-transition: all 0.45s;
+  -o-transition: all 0.45s;
+  transition: all 0.45s;
 }
 
 .tsh-pagination .pagination li a:hover,
@@ -1637,11 +1649,11 @@ NAVBAR SECTION
   display: inline-block;
   padding: 5px;
   font-size: 15px;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: all 0.45s;
+  -moz-transition: all 0.45s;
+  -ms-transition: all 0.45s;
+  -o-transition: all 0.45s;
+  transition: all 0.45s;
 }
 
 .tsh-blog-single .tsh-blog-single-item .tsh-blog-social {
@@ -1670,14 +1682,14 @@ NAVBAR SECTION
   display: inline-block;
   min-width: 35px;
   text-align: center;
-  margin: 0 5px;
+  margin: 0.45px;
   height: 35px;
   line-height: 35px;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: all 0.45s;
+  -moz-transition: all 0.45s;
+  -ms-transition: all 0.45s;
+  -o-transition: all 0.45s;
+  transition: all 0.45s;
 }
 
 .tsh-blog-single .tsh-blog-single-item .tsh-blog-social .tsh-news-social-nav li a:hover,
@@ -1700,7 +1712,7 @@ NAVBAR SECTION
   font-size: 20px;
   font-weight: normal;
   padding: 10px 20px;
-  transition: all 0.5s ease 0s;
+  transition: all 0.45s ease 0s;
 }
 
 .tsh-blog-single-navigation a:hover,
@@ -1774,7 +1786,7 @@ NAVBAR SECTION
 .tsh-comments-area .comments .commentlist li .comments-date {
   display: block;
   font-size: 12px;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.45px;
   margin-bottom: 10px;
   margin-top: 5px;
 }
@@ -1788,11 +1800,11 @@ NAVBAR SECTION
   margin-bottom: 10px;
   margin-top: 20px;
   padding: 8px 15px;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: all 0.45s;
+  -moz-transition: all 0.45s;
+  -ms-transition: all 0.45s;
+  -o-transition: all 0.45s;
+  transition: all 0.45s;
 }
 
 .tsh-comments-area .comments .commentlist li .reply-btn span {
@@ -1848,11 +1860,11 @@ NAVBAR SECTION
   padding: 5px;
   text-align: center;
   width: 25px;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: all 0.45s;
+  -moz-transition: all 0.45s;
+  -ms-transition: all 0.45s;
+  -o-transition: all 0.45s;
+  transition: all 0.45s;
 }
 
 .tsh-comments-area .comments .comments-pagination li a:hover,
@@ -1901,11 +1913,11 @@ NAVBAR SECTION
   height: 35px;
   padding: 5px;
   width: 65%;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: all 0.45s;
+  -moz-transition: all 0.45s;
+  -ms-transition: all 0.45s;
+  -o-transition: all 0.45s;
+  transition: all 0.45s;
 }
 
 #respond textarea {
@@ -1915,11 +1927,11 @@ NAVBAR SECTION
   padding: 10px;
   height: 200px;
   width: 100%;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: all 0.45s;
+  -moz-transition: all 0.45s;
+  -ms-transition: all 0.45s;
+  -o-transition: all 0.45s;
+  transition: all 0.45s;
 }
 
 #respond input[type="submit"] {
@@ -1968,15 +1980,15 @@ NAVBAR SECTION
   display: inline-block;
   font-size: 14px;
   font-weight: bold;
-  letter-spacing: 0.5px;
-  margin: 0 5px;
+  letter-spacing: 0.45px;
+  margin: 0.45px;
   padding: 6px 15px;
   text-transform: uppercase;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: all 0.45s;
+  -moz-transition: all 0.45s;
+  -ms-transition: all 0.45s;
+  -o-transition: all 0.45s;
+  transition: all 0.45s;
 }
 
 #tsh-gallery .tsh-gallery-area .tsh-gallery-content .tsh-gallery-top ul li:hover,
@@ -2069,11 +2081,11 @@ NAVBAR SECTION
   width: 100%;
   padding: 20px;
   transform: scale(0);
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: all 0.45s;
+  -moz-transition: all 0.45s;
+  -ms-transition: all 0.45s;
+  -o-transition: all 0.45s;
+  transition: all 0.45s;
 }
 
 #tsh-gallery .tsh-gallery-area .tsh-gallery-content .tsh-gallery-body ul li .tsh-single-gallery .tsh-single-gallery-item .tsh-single-gallery-info .tsh-single-gallery-info-inner h4 {
@@ -2098,11 +2110,11 @@ NAVBAR SECTION
   margin-right: 10px;
   text-align: center;
   width: 40px;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: all 0.45s;
+  -moz-transition: all 0.45s;
+  -ms-transition: all 0.45s;
+  -o-transition: all 0.45s;
+  transition: all 0.45s;
 }
 
 #tsh-gallery .tsh-gallery-area #mixit-container .mix {
@@ -2168,11 +2180,11 @@ NAVBAR SECTION
   height: 35px;
   padding: 5px;
   width: 100%;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: all 0.45s;
+  -moz-transition: all 0.45s;
+  -ms-transition: all 0.45s;
+  -o-transition: all 0.45s;
+  transition: all 0.45s;
 }
 
 #tsh-contact .tsh-contact-area .tsh-contact-content .tsh-contact-left .contactform textarea {
@@ -2183,11 +2195,11 @@ NAVBAR SECTION
   padding: 10px;
   height: 150px;
   width: 100%;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: all 0.45s;
+  -moz-transition: all 0.45s;
+  -ms-transition: all 0.45s;
+  -o-transition: all 0.45s;
+  transition: all 0.45s;
 }
 
 #tsh-contact .tsh-contact-area .tsh-contact-content .tsh-contact-left .contactform .form-submit input {
@@ -2279,18 +2291,20 @@ NAVBAR SECTION
   display: inline-block;
   font-size: 14px;
   font-weight: normal;
-  padding: 5px 0 5px 15px;
+  padding: 5px 0.45px 15px;
   position: relative;
   text-transform: capitalize;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: all 0.45s;
+  -moz-transition: all 0.45s;
+  -ms-transition: all 0.45s;
+  -o-transition: all 0.45s;
+  transition: all 0.45s;
 }
 
 #tsh-footer .tsh-footer-top .tsh-footer-top-area .tsh-footer-widget ul li a:before {
-  content: "\f101";
+  /* ↓ icon before footer link */
+  /* content: "\f101"; */
+
   font-family: FontAwesome;
   left: 0;
   position: absolute;
@@ -2323,25 +2337,32 @@ NAVBAR SECTION
   margin-bottom: 20px;
   padding: 5px;
   width: 100%;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: all 0.45s;
+  -moz-transition: all 0.45s;
+  -ms-transition: all 0.45s;
+  -o-transition: all 0.45s;
+  transition: all 0.45s;
 }
 
 #tsh-footer .tsh-footer-top .tsh-footer-top-area .tsh-footer-widget .tsh-subscribe-form .tsh-subscribe-btn {
   color: #fff;
+  background: #e27171;
   border: medium none;
   border-radius: 4px;
   font-size: 14px;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.45px;
   padding: 5px 10px;
+}
+#tsh-footer .tsh-footer-top .tsh-footer-top-area .tsh-footer-widget .tsh-subscribe-form .tsh-subscribe-btn:hover,
+#tsh-footer .tsh-footer-top .tsh-footer-top-area .tsh-footer-widget .tsh-subscribe-form .tsh-subscribe-btn:focus {
+  color: rgb(4, 35, 104);
+  background: #c4e271;
+
 }
 
 #tsh-footer .tsh-footer-top .tsh-footer-top-area .tsh-footer-widget address p {
   font-weight: lighter;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.45px;
 }
 
 #tsh-footer .tsh-footer-bottom {
@@ -2362,7 +2383,7 @@ NAVBAR SECTION
 #tsh-footer .tsh-footer-bottom .tsh-footer-bottom-area p {
   color: #fff;
   margin-bottom: 0;
-  letter-spacing: 0.3px;
+  letter-spacing: 0.45px;
 }
 
 #tsh-footer .tsh-footer-bottom .tsh-footer-bottom-area p a {
@@ -2692,7 +2713,7 @@ NAVBAR SECTION
 
   #tsh-header .tsh-header-area .tsh-header-top-right .tsh-top-social-nav li a {
     font-size: 12px;
-    padding: 0 5px;
+    padding: 0.45px;
   }
 
   #tsh-slider .tsh-slider-single .tsh-slider-content h2 {
