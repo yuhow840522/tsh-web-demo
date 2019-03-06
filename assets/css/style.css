@@ -31,6 +31,7 @@
 */
 
 /* BASE - Base tyles, Variables, Mixins, etc. */
+
 body {
   background-color: #ffffff;
   font-family: "Apple LiGothic Medium", "Microsoft YaHei", "Roboto", sans-serif;
@@ -488,43 +489,44 @@ NAVBAR SECTION
   width: 100%;
 }
 
-#tsh-service .tsh-service-area {
-  display: inline;
-  float: left;
-  width: 100%;
+#tsh-service {
+
 }
 
-#tsh-service .tsh-service-area .tsh-service-single {
-  background-color: #01bafd;
+#tsh-service .tsh-service-single {
+  /* -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; */
+  background-color: #f8672e;
   color: #fff;
   display: inline;
   float: left;
   padding: 35px 25px;
+  /* margin: 3px; */
   text-align: center;
-  width: 25%;
 }
 
-#tsh-service .tsh-service-area .tsh-service-single:nth-child(2) {
-  background-color: #2ecc71;
+#tsh-service .tsh-service-single:nth-child(2) {
+  background-color: #94cf1c;
 }
 
-#tsh-service .tsh-service-area .tsh-service-single:nth-child(3) {
-  background-color: #45a0de;
+#tsh-service .tsh-service-single:nth-child(3) {
+  background-color: #27b3f8;
 }
 
-#tsh-service .tsh-service-area .tsh-service-single:nth-child(4) {
-  background-color: #ec85db;
+#tsh-service .tsh-service-single:nth-child(4) {
+  background-color: #f1bc2b;
 }
 
-#tsh-service .tsh-service-area .tsh-service-single span {
+#tsh-service .tsh-service-single span {
   font-size: 30px;
 }
 
-#tsh-service .tsh-service-area .tsh-service-single h3 {
+#tsh-service .tsh-service-single h3 {
   font-size: 25px;
 }
 
-#tsh-service .tsh-service-area .tsh-service-single p {
+#tsh-service .tsh-service-single p {
   font-weight: lighter;
 }
 
@@ -631,12 +633,11 @@ NAVBAR SECTION
 
 .tsh-title {
   display: inline;
-  float: left;
   text-align: center;
-  width: 100%;
 }
 
 .tsh-title h2 {
+  margin-top: 10px;
   color: #000;
   margin-bottom: 10px;
   text-transform: uppercase;
@@ -926,53 +927,37 @@ NAVBAR SECTION
 }
 
 /*==================
- TEACHER SECTION
+NEWS & ISSUE SECTION
 ====================*/
 
 .tsh-news {
   display: inline-block;
-  width: 50%;
   background: rgb(236, 143, 143);
 }
 
 .tsh-issue {
   display: inline-block;
-  width: 50%;
   background: rgba(127, 181, 231, 0.829);
 }
 
 
-#tsh-our-teacher {
-  display: inline;
-  float: left;
-  padding: 100px 0;
-  width: 100%;
+#tsh-newsandissue {
+  background: rgba(133, 130, 130, 0.267);
 }
 
-#tsh-our-teacher .tsh-our-teacher-area {
+#tsh-newsandissue .tsh-newsandissue-area .tsh-newsandissue-content {
   display: inline;
-  float: left;
-  width: 100%;
 }
 
-#tsh-our-teacher .tsh-our-teacher-area .tsh-our-teacher-content {
+#tsh-newsandissue .tsh-newsandissue-area .tsh-newsandissue-content .tsh-newsandissue-single {
   display: inline;
-  float: left;
-  margin-top: 50px;
-  width: 100%;
 }
 
-#tsh-our-teacher .tsh-our-teacher-area .tsh-our-teacher-content .tsh-our-teacher-single {
-  display: inline;
-  float: left;
-  width: 100%;
-}
-
-#tsh-our-teacher .tsh-our-teacher-area .tsh-our-teacher-content .tsh-our-teacher-single:hover .tsh-our-teacher-img .tsh-our-teacher-social {
+#tsh-newsandissue .tsh-newsandissue-area .tsh-newsandissue-content .tsh-newsandissue-single:hover .tsh-newsandissue-img .tsh-newsandissue-social {
   opacity: 1;
 }
 
-#tsh-our-teacher .tsh-our-teacher-area .tsh-our-teacher-content .tsh-our-teacher-single:hover .tsh-our-teacher-img .tsh-our-teacher-social a {
+#tsh-newsandissue .tsh-newsandissue-area .tsh-newsandissue-content .tsh-newsandissue-single:hover .tsh-newsandissue-img .tsh-newsandissue-social a {
   -moz-transform: translateY(0%);
   -o-transform: translateY(0%);
   -ms-transform: translateY(0%);
@@ -980,7 +965,7 @@ NAVBAR SECTION
   transform: translateY(0%);
 }
 
-#tsh-our-teacher .tsh-our-teacher-area .tsh-our-teacher-content .tsh-our-teacher-single .tsh-our-teacher-img {
+#tsh-newsandissue .tsh-newsandissue-area .tsh-newsandissue-content .tsh-newsandissue-single .tsh-newsandissue-img {
   background-color: #ccc;
   display: inline;
   position: relative;
@@ -988,11 +973,11 @@ NAVBAR SECTION
   width: 100%;
 }
 
-#tsh-our-teacher .tsh-our-teacher-area .tsh-our-teacher-content .tsh-our-teacher-single .tsh-our-teacher-img img {
+#tsh-newsandissue .tsh-newsandissue-area .tsh-newsandissue-content .tsh-newsandissue-single .tsh-newsandissue-img img {
   width: 100%;
 }
 
-#tsh-our-teacher .tsh-our-teacher-area .tsh-our-teacher-content .tsh-our-teacher-single .tsh-our-teacher-img .tsh-our-teacher-social {
+#tsh-newsandissue .tsh-newsandissue-area .tsh-newsandissue-content .tsh-newsandissue-single .tsh-newsandissue-img .tsh-newsandissue-social {
   bottom: 0;
   left: 0;
   opacity: 0;
@@ -1009,7 +994,7 @@ NAVBAR SECTION
   transition: all 0.45s;
 }
 
-#tsh-our-teacher .tsh-our-teacher-area .tsh-our-teacher-content .tsh-our-teacher-single .tsh-our-teacher-img .tsh-our-teacher-social a {
+#tsh-newsandissue .tsh-newsandissue-area .tsh-newsandissue-content .tsh-newsandissue-single .tsh-newsandissue-img .tsh-newsandissue-social a {
   border: 2px solid #fff;
   color: #fff;
   display: inline-block;
@@ -1030,24 +1015,24 @@ NAVBAR SECTION
   transition: all 0.45s;
 }
 
-#tsh-our-teacher .tsh-our-teacher-area .tsh-our-teacher-content .tsh-our-teacher-single .tsh-our-teacher-img .tsh-our-teacher-social a:hover,
-#tsh-our-teacher .tsh-our-teacher-area .tsh-our-teacher-content .tsh-our-teacher-single .tsh-our-teacher-img .tsh-our-teacher-social a:focus {
+#tsh-newsandissue .tsh-newsandissue-area .tsh-newsandissue-content .tsh-newsandissue-single .tsh-newsandissue-img .tsh-newsandissue-social a:hover,
+#tsh-newsandissue .tsh-newsandissue-area .tsh-newsandissue-content .tsh-newsandissue-single .tsh-newsandissue-img .tsh-newsandissue-social a:focus {
   background-color: #FFF;
 }
 
-#tsh-our-teacher .tsh-our-teacher-area .tsh-our-teacher-content .tsh-our-teacher-single .tsh-ourteacher-single-content {
+#tsh-newsandissue .tsh-newsandissue-area .tsh-newsandissue-content .tsh-newsandissue-single .tsh-newsandissue-single-content {
   display: inline;
   float: left;
   width: 100%;
 }
 
-#tsh-our-teacher .tsh-our-teacher-area .tsh-our-teacher-content .tsh-our-teacher-single .tsh-ourteacher-single-content h4 {
+#tsh-newsandissue .tsh-newsandissue-area .tsh-newsandissue-content .tsh-newsandissue-single .tsh-newsandissue-single-content h4 {
   margin-bottom: 0;
   margin-top: 20px;
   text-transform: uppercase;
 }
 
-#tsh-our-teacher .tsh-our-teacher-area .tsh-our-teacher-content .tsh-our-teacher-single .tsh-ourteacher-single-content span {
+#tsh-newsandissue .tsh-newsandissue-area .tsh-newsandissue-content .tsh-newsandissue-single .tsh-newsandissue-single-content span {
   color: #000;
   display: block;
   font-size: 14px;
@@ -1055,7 +1040,7 @@ NAVBAR SECTION
   margin-top: 5px;
 }
 
-#tsh-our-teacher .tsh-our-teacher-area .tsh-our-teacher-content .tsh-our-teacher-single .tsh-ourteacher-single-content p {
+#tsh-newsandissue .tsh-newsandissue-area .tsh-newsandissue-content .tsh-newsandissue-single .tsh-newsandissue-single-content p {
   font-size: 15px;
 }
 
@@ -2434,7 +2419,7 @@ NAVBAR SECTION
     line-height: 1.5;
   }
 
-  #tsh-service .tsh-service-area .tsh-service-single h3 {
+  #tsh-service .tsh-service-single h3 {
     font-size: 20px;
   }
 
@@ -2482,12 +2467,12 @@ NAVBAR SECTION
     padding: 60px 0 90px;
   }
 
-  #tsh-our-teacher {
+  #tsh-newsandissue {
     padding: 60px 0;
     width: 100%;
   }
 
-  #tsh-our-teacher .tsh-our-teacher-area .tsh-our-teacher-content .tsh-our-teacher-single {
+  #tsh-newsandissue .tsh-newsandissue-area .tsh-newsandissue-content .tsh-newsandissue-single {
     margin-bottom: 30px;
   }
 
@@ -2683,11 +2668,11 @@ NAVBAR SECTION
     margin-top: 30px;
   }
 
-  #tsh-service .tsh-service-area .tsh-service-single {
+  #tsh-service .tsh-service-single {
     padding: 20px 5px;
   }
 
-  #tsh-service .tsh-service-area .tsh-service-single h3 {
+  #tsh-service .tsh-service-single h3 {
     font-size: 16px;
   }
 
@@ -2749,12 +2734,12 @@ NAVBAR SECTION
     height: 270px;
   }
 
-  #tsh-service .tsh-service-area .tsh-service-single {
+  #tsh-service .tsh-service-single {
     padding: 20px 15px;
     width: 100%;
   }
 
-  #tsh-service .tsh-service-area .tsh-service-single h3 {
+  #tsh-service .tsh-service-single h3 {
     font-size: 18px;
   }
 
