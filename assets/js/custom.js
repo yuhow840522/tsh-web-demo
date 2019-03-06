@@ -31,27 +31,27 @@ jQuery(function ($) {
   /*  1. SEARCH FORM
   /* ----------------------------------------------------------- */
 
-  jQuery('#mu-search-icon').on('click', function (event) {
+  jQuery('#tsh-search-icon').on('click', function (event) {
     event.preventDefault();
-    $('#mu-search').addClass('mu-search-open');
-    $('#mu-search form input[type="search"]').focus();
+    $('#tsh-search').addClass('tsh-search-open');
+    $('#tsh-search form input[type="search"]').focus();
   });
 
-  jQuery('.mu-search-close').on('click', function (event) {
-    $("#mu-search").removeClass('mu-search-open');
+  jQuery('.tsh-search-close').on('click', function (event) {
+    $("#tsh-search").removeClass('tsh-search-open');
   });
 
   /* ----------------------------------------------------------- */
   /*  2. ABOUT US VIDEO
   /* ----------------------------------------------------------- */
   // WHEN CLICK PLAY BUTTON 
-  jQuery('#mu-abtus-video').on('click', function (event) {
+  jQuery('#tsh-abtus-video').on('click', function (event) {
     event.preventDefault();
-    $('body').append("<div id='about-video-popup'><span id='mu-video-close' class='fa fa-close'></span><iframe id='mutube-video' name='mutube-video' frameborder='0' allowfullscreen></iframe></div>");
-    $("#mutube-video").attr("src", $(this).attr("href"));
+    $('body').append("<div id='about-video-popup'><span id='tsh-video-close' class='fa fa-close'></span><iframe id='tshtube-video' name='tshtube-video' frameborder='0' allowfullscreen></iframe></div>");
+    $("#tshtube-video").attr("src", $(this).attr("href"));
   });
   // WHEN CLICK CLOSE BUTTON
-  $(document).on('click', '#mu-video-close', function (event) {
+  $(document).on('click', '#tsh-video-close', function (event) {
     $(this).parent("div").fadeOut(1000);
   });
   // WHEN CLICK OVERLAY BACKGROUND
@@ -63,7 +63,7 @@ jQuery(function ($) {
   /*  3. TOP SLIDER (SLICK SLIDER)
   /* ----------------------------------------------------------- */
 
-  jQuery('#mu-slider').slick({
+  jQuery('#tsh-slider').slick({
     dots: false,
     infinite: true,
     arrows: true,
@@ -76,7 +76,7 @@ jQuery(function ($) {
   /*  4. ABOUT US (SLICK SLIDER)
   /* ----------------------------------------------------------- */
 
-  jQuery('#mu-testimonial-slide').slick({
+  jQuery('#tsh-testimonial-slide').slick({
     dots: true,
     infinite: true,
     arrows: false,
@@ -90,7 +90,7 @@ jQuery(function ($) {
   /*  5. LATEST COURSE SLIDER (SLICK SLIDER)
   /* ----------------------------------------------------------- */
 
-  jQuery('#mu-latest-course-slide').slick({
+  jQuery('#tsh-latest-course-slide').slick({
     dots: true,
     arrows: false,
     infinite: true,
@@ -132,7 +132,7 @@ jQuery(function ($) {
   /*  6. TESTIMONIAL SLIDER (SLICK SLIDER)
   /* ----------------------------------------------------------- */
 
-  jQuery('.mu-testimonial-slider').slick({
+  jQuery('.tsh-testimonial-slider').slick({
     dots: true,
     infinite: true,
     arrows: false,
@@ -155,7 +155,7 @@ jQuery(function ($) {
   /*  8. RELATED ITEM SLIDER (SLICK SLIDER)
   /* ----------------------------------------------------------- */
 
-  jQuery('#mu-related-item-slide').slick({
+  jQuery('#tsh-related-item-slide').slick({
     dots: false,
     arrows: true,
     infinite: true,

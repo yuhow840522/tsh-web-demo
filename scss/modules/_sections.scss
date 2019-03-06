@@ -35,7 +35,7 @@
 	color: #fff;
 }
 
-#mu-search{
+#tsh-search{
 	background-color: rgba(0, 0, 0, 0.9);
 	height: 100%;
 	left: 0;
@@ -46,13 +46,13 @@
 	@include transition(all 0.5s ease-in-out 0s);
 	width: 100%;
 	z-index: 99999;
-	.mu-search-area{
+	.tsh-search-area{
 		display: inline;
 		float: left;
 		width: 100%;
 		padding: 20% 0;
 		text-align: center;
-		.mu-search-close{			
+		.tsh-search-close{			
 			border: none;
 			color: #fff;
 			display: inline-block;
@@ -66,7 +66,7 @@
 			top: 50px;
 			width: 50px;
 		}
-		.mu-search-form{
+		.tsh-search-form{
 			input[type="search"]{
 				background: transparent none repeat scroll 0 0;
 				border: medium none;
@@ -81,7 +81,7 @@
 		}
 	}
 }
-#mu-search.mu-search-open{	
+#tsh-search.tsh-search-open{	
 	transform: translateY(0) scale(1);
 }
 
@@ -89,16 +89,16 @@
 /*==================
  SLIDER SECTION
 ====================*/
-#mu-slider{
+#tsh-slider{
 	display: inline;
 	float: left;
 	width: 100%;
-	.mu-slider-single{
+	.tsh-slider-single{
 		display: inline;
 		float: left;
 		width: 100%;
 		position: relative;
-		.mu-slider-img{
+		.tsh-slider-img{
 			display: inline;
 			float: left;
 			width: 100%;
@@ -122,7 +122,7 @@
 			}
 			
 		}
-		.mu-slider-content{
+		.tsh-slider-content{
 			color: #fff;
 			position: absolute;
 			left: 0;
@@ -172,16 +172,16 @@
  SERVICE SECTION
 ====================*/
 
-#mu-service{
+#tsh-service{
 	display: inline;
 	float: left;	
 	margin-top: -80px;
 	width: 100%;
-	.mu-service-area{
+	.tsh-service-area{
 		display: inline;
 		float: left;
 		width: 100%;
-		.mu-service-single{
+		.tsh-service-single{
 			background-color: #01bafd;
 			color: #fff;
 			display: inline;
@@ -215,16 +215,16 @@
  ABOUT SECTION
 ====================*/
 
-#mu-about-us{
+#tsh-about-us{
 	display: inline;
 	float: left;
 	width: 100%;
 	padding: 100px 0;	
-	.mu-about-us-area{
+	.tsh-about-us-area{
 		display: inline;
 		float: left;
 		width: 100%;
-		.mu-about-us-left{
+		.tsh-about-us-left{
 			display: inline;
 			float: left;			
 			width: 100%;
@@ -245,7 +245,7 @@
 				}
 			}
 		}
-		.mu-about-us-right{
+		.tsh-about-us-right{
 			display: inline;
 			float: left;			
 			width: 100%;
@@ -306,7 +306,7 @@
 }
 
 // title
-.mu-title{
+.tsh-title{
 	display: inline;
 	float: left;	
 	text-align: center;
@@ -329,7 +329,7 @@
  ABOUT US COUNTER SECTION
 ====================*/
 
-#mu-abtus-counter{
+#tsh-abtus-counter{
 	background-image: url("../img/counter-bg.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -337,11 +337,11 @@
 	float: left;
 	padding: 100px 0;
 	width: 100%;
-	.mu-abtus-counter-area{
+	.tsh-abtus-counter-area{
 		display: inline;
 		float: left;
 		width: 100%;			
-		.mu-abtus-counter-single{
+		.tsh-abtus-counter-single{
 			border-right: 2px solid #888;
 			display: inline;
 			float: left;
@@ -379,21 +379,21 @@
  FEATURES SECTION
 ====================*/
 
-#mu-features{
+#tsh-features{
 	display: inline;
 	float: left;
 	padding: 100px 0;
 	width: 100%;
-	.mu-features-area{
+	.tsh-features-area{
 		display: inline;
 		float: left;
 		width: 100%;
-		.mu-features-content{
+		.tsh-features-content{
 			display: inline;
 			float: left;
 			margin-top: 50px;			
 			width: 100%;
-			.mu-single-feature{
+			.tsh-single-feature{
 				display: inline;
 				float: left;
 				margin-bottom: 30px;
@@ -446,17 +446,17 @@
  LATEST COURSES SECTION
 ====================*/
 
-#mu-latest-courses{
+#tsh-latest-courses{
 	background-color: #333;
 	display: inline;
 	float: left;
 	padding: 100px 0;
 	width: 100%;
-	.mu-latest-courses-area{
+	.tsh-latest-courses-area{
 		display: inline;
 		float: left;
 		width: 100%;
-		.mu-title{
+		.tsh-title{
 			h2{
 				color: #fff;
 			}
@@ -464,7 +464,7 @@
 				color: #fff;
 			}
 		}
-		.mu-latest-courses-content{
+		.tsh-latest-courses-content{
 			display: inline;
 			float: left;
 			margin-top: 50px;
@@ -486,12 +486,12 @@
 		}		
 	}
 }
-.mu-latest-course-single{
+.tsh-latest-course-single{
 	background-color: #fff;
 	display: inline;
 	float: left;				
 	width: 100%;
-	.mu-latest-course-img{
+	.tsh-latest-course-img{
 		display: inline;
 		float: left;
 		width: 100%;
@@ -501,7 +501,7 @@
 				width: 100%;
 			}
 		}
-		.mu-latest-course-imgcaption{
+		.tsh-latest-course-imgcaption{
 			background-color: #f8f8f8;						
 			display: inline;
 			float: left;
@@ -524,7 +524,7 @@
 			}
 		}					
 	}
-	.mu-latest-course-single-content{
+	.tsh-latest-course-single-content{
 		display: inline;
 		float: left;
 		width: 100%;
@@ -542,14 +542,14 @@
 			letter-spacing: 0.3px;
 			line-height: 1.7;
 		}
-		.mu-latest-course-single-contbottom{
+		.tsh-latest-course-single-contbottom{
 			border-top: 1px solid #ccc;
 			display: inline;
 			float: left;
 			margin-top: 15px;
 			padding-top: 15px;
 			width: 100%;
-			.mu-course-details{				
+			.tsh-course-details{				
 				display: inline-block;
 				float: left;
 				@include transition(all 0.5s);
@@ -558,7 +558,7 @@
 					color: #333;
 				}
 			}
-			.mu-course-price{
+			.tsh-course-price{
 				display: inline-block;
 				float: right;
 			}
@@ -571,27 +571,27 @@
  TEACHER SECTION
 ====================*/
 
-#mu-our-teacher{
+#tsh-our-teacher{
 	display: inline;
 	float: left;
 	padding: 100px 0;
 	width: 100%;
-	.mu-our-teacher-area{
+	.tsh-our-teacher-area{
 		display: inline;
 		float: left;
 		width: 100%;
-		.mu-our-teacher-content{
+		.tsh-our-teacher-content{
 			display: inline;
 			float: left;
 			margin-top: 50px;
 			width: 100%;
-			.mu-our-teacher-single{
+			.tsh-our-teacher-single{
 				display: inline;
 				float: left;
 				width: 100%;
 				&:hover{
-					.mu-our-teacher-img{
-						.mu-our-teacher-social{
+					.tsh-our-teacher-img{
+						.tsh-our-teacher-social{
 							opacity: 1;
 							a{
 								@include transform(translateY(0%));
@@ -599,7 +599,7 @@
 						}
 					}
 				}
-				.mu-our-teacher-img{
+				.tsh-our-teacher-img{
 					background-color: #ccc;
 					display: inline;
 					position: relative;
@@ -608,7 +608,7 @@
 					img{
 						width: 100%;
 					}
-					.mu-our-teacher-social{					
+					.tsh-our-teacher-social{					
 						bottom: 0;
 						left: 0;
 						opacity: 0;
@@ -637,7 +637,7 @@
 						}
 					}
 				}
-				.mu-ourteacher-single-content{
+				.tsh-ourteacher-single-content{
 					display: inline;
 					float: left;
 					width: 100%;
@@ -666,7 +666,7 @@
  TESTIMONIAL SECTION
 ====================*/
 
-#mu-testimonial{
+#tsh-testimonial{
 	background-attachment: fixed;
 	background-image: url("../img/testimonial-bg.jpg");
 	background-position: center center;
@@ -686,23 +686,23 @@
 		bottom: 0;
 		right: 0;
 	}
-	.mu-testimonial-area{
+	.tsh-testimonial-area{
 		display: inline;
 		float: left;
 		padding: 0 150px;
 		position: relative;
 		width: 100%;
 		z-index: 99;
-		.mu-testimonial-content{
+		.tsh-testimonial-content{
 			display: inline;
 			float: left;
 			width: 100%;
-			.mu-testimonial-item{
+			.tsh-testimonial-item{
 				display: inline;
 				float: left;
 				width: 100%;
 				outline: none;
-				.mu-testimonial-quote{
+				.tsh-testimonial-quote{
 					background-color: #333;
 					border-radius: 4px;
 					display: inline;
@@ -733,7 +733,7 @@
 						}
 					}
 				}
-				.mu-testimonial-img{
+				.tsh-testimonial-img{
 					display: inline;
 					float: left;
 					width: 100%;
@@ -747,7 +747,7 @@
 						width: 120px;						
 					}
 				}
-				.mu-testimonial-info{
+				.tsh-testimonial-info{
 					display: inline;
 					float: left;
 					width: 100%;
@@ -782,16 +782,16 @@
  FROM BLOG SECTION
 ====================*/
 
-#mu-from-blog{
+#tsh-from-blog{
 	display: inline;
 	float: left;
 	padding: 100px 0;
 	width: 100%;
-	.mu-from-blog-area{
+	.tsh-from-blog-area{
 		display: inline;
 		float: left;
 		width: 100%;
-		.mu-from-blog-content{
+		.tsh-from-blog-content{
 			display: inline;
 			float: left;
 			margin-top: 50px;
@@ -799,11 +799,11 @@
 		}
 	}
 }
-.mu-blog-single-item{
+.tsh-blog-single-item{
 	display: inline;
 	float: left;
 	width: 100%;
-	.mu-blog-single-img{
+	.tsh-blog-single-img{
 		display: inline;
 		float: left;
 		width: 100%;
@@ -813,7 +813,7 @@
 					width: 100%;
 				}
 			}
-		.mu-blog-caption{
+		.tsh-blog-caption{
 			display: inline;
 			float: left;
 			width: 100%;
@@ -825,7 +825,7 @@
 			}
 		}					
 	}
-	.mu-blog-meta{
+	.tsh-blog-meta{
 		display: inline;
 		float: left;
 		margin-bottom: 15px;
@@ -847,7 +847,7 @@
 			}
 		}
 	}
-	.mu-blog-description{
+	.tsh-blog-description{
 		display: inline;
 		float: left;
 		width: 100%;
@@ -874,13 +874,13 @@
  COURSES PAGE
 ====================*/
 
-#mu-page-breadcrumb{
+#tsh-page-breadcrumb{
 	background-color: #333;
 	display: inline;
 	float: left;
 	padding: 30px 0;
 	width: 100%;
-	.mu-page-breadcrumb-area{
+	.tsh-page-breadcrumb-area{
 		display: inline;
 		float: left;
 		width: 100%;
@@ -903,30 +903,30 @@
 		}
 	}
 }
-#mu-course-content{
+#tsh-course-content{
 	background-color: #f8f8f8;
 	display: inline;
 	float: left;
 	padding: 100px 0;
 	width: 100%;
-	.mu-course-content-area{
+	.tsh-course-content-area{
 		display: inline;
 		float: left;
 		width: 100%;
-		.mu-course-container{
+		.tsh-course-container{
 			display: inline;
 			float: left;
 			width: 100%;
-			.mu-latest-course-single{
+			.tsh-latest-course-single{
 				border: 1px solid #ccc;
 				margin-bottom: 30px;
 			}
 		}	
-		.mu-sidebar{						
+		.tsh-sidebar{						
 			display: inline;
 			float: left;
 			width: 100%;
-			.mu-single-sidebar{
+			.tsh-single-sidebar{
 				background-color: #FFF;
 				display: inline;
 				float: left;
@@ -936,7 +936,7 @@
 				h3{
 
 				}
-				.mu-sidebar-catg{
+				.tsh-sidebar-catg{
 					padding-left: 15px;
 					li{
 						a{
@@ -962,7 +962,7 @@
 						}
 					}
 				}
-				.mu-sidebar-popular-courses{
+				.tsh-sidebar-popular-courses{
 					display: inline;
 					float: left;
 					margin-top: 10px;
@@ -987,7 +987,7 @@
 						}
 					}
 				}
-				.mu-sidebar-archives{
+				.tsh-sidebar-archives{
 					li{
 						a{
 							&:before{
@@ -1016,14 +1016,14 @@
 				}
 			}
 		}	
-		.mu-course-details{
+		.tsh-course-details{
 			background-color: #FFF;
-			.mu-latest-course-single{
+			.tsh-latest-course-single{
 				border: none;
-				.mu-latest-course-imgcaption{
+				.tsh-latest-course-imgcaption{
 					background-color: #FFF;
 				}
-				.mu-latest-course-single-content{
+				.tsh-latest-course-single-content{
 					h2{
 						line-height: 1.7;
 						margin-bottom: 20px;
@@ -1055,7 +1055,7 @@
 		}
 	}
 }
-.mu-pagination{
+.tsh-pagination{
 	display: inline;
 	float: left;
 	width: 100%;
@@ -1090,30 +1090,30 @@
 		}
 	}
 }
-.mu-related-item{
+.tsh-related-item{
 	display: inline;
 	float: left;
 	margin-top: 30px;
 	width: 100%;
-	.mu-related-item-area{
+	.tsh-related-item-area{
 		margin-top: 30px;
-		.mu-latest-course-single{
+		.tsh-latest-course-single{
 			border: 1px solid #ccc;
 		}
-		.mu-blog-single-item{
+		.tsh-blog-single-item{
 			background-color: #FFF;
-			.mu-blog-caption{
+			.tsh-blog-caption{
 				padding: 0 15px;
 			}
-			.mu-blog-meta{
+			.tsh-blog-meta{
 				padding: 0 15px;
 			}
-			.mu-blog-description{
+			.tsh-blog-description{
 				padding: 0 15px 20px;
 			}
 
 		}
-		#mu-related-item-slide{
+		#tsh-related-item-slide{
 			.slick-prev,
 			.slick-next{
 				height: 50px;
@@ -1128,22 +1128,22 @@
  BLOG PAGE
 ====================*/
 
-.mu-blog-archive{
-	.mu-blog-single-item{
+.tsh-blog-archive{
+	.tsh-blog-single-item{
 		margin-bottom: 35px;
 	}
 }
-.mu-blog-single{
-	.mu-blog-single-item{
+.tsh-blog-single{
+	.tsh-blog-single-item{
 		background-color: #FFF;
 		padding-bottom: 30px;
-		.mu-blog-caption{
+		.tsh-blog-caption{
 			padding: 0 15px;
 		}
-		.mu-blog-meta{
+		.tsh-blog-meta{
 			padding: 0 15px;
 		}
-		.mu-blog-description{
+		.tsh-blog-description{
 			padding: 0 15px 30px;
 
 			ul{
@@ -1161,11 +1161,11 @@
 				}
 			}
 		}
-		.mu-blog-tags{
+		.tsh-blog-tags{
 			display: inline;
 			float: left;
 			width: 100%;
-			.mu-news-single-tagnav{
+			.tsh-news-single-tagnav{
 				display: inline-block;
 				padding: 0 15px;
 				li{
@@ -1182,12 +1182,12 @@
 				}
 			}
 		}
-		.mu-blog-social{
+		.tsh-blog-social{
 			display: inline;
 			float: left;
 			margin-top: 20px;
 			width: 100%;
-			.mu-news-social-nav{
+			.tsh-news-social-nav{
 				display: inline-block;
 				padding: 0 15px;
 				li{
@@ -1215,7 +1215,7 @@
 		}
 	}
 }
-.mu-blog-single-navigation {
+.tsh-blog-single-navigation {
 	display: inline;
 	float: left;
 	padding: 20px 0;
@@ -1234,21 +1234,21 @@
 			color: #fff;
 		}
 	}
-	.mu-blog-prev{
+	.tsh-blog-prev{
 		float: left;
 		span{
 			margin-right: 10px;
 		}
 	}
 
-	.mu-blog-next{
+	.tsh-blog-next{
 		float: right;
 		span{
 			margin-left: 10px;
 		}
 	}
 }
-.mu-comments-area{
+.tsh-comments-area{
 	display: inline;
 	float: left;
 	width: 100%;
@@ -1416,20 +1416,20 @@
  GALLERY PAGE
 ====================*/
 
-#mu-gallery{
+#tsh-gallery{
 	display: inline; 
 	float: left;
 	padding: 100px 0;
 	width: 100%;
-	.mu-gallery-area{
+	.tsh-gallery-area{
 		display: inline;
 		float: left;
 		width: 100%;
-		.mu-gallery-content{
+		.tsh-gallery-content{
 			display: inline;
 			float: left;
 			width: 100%;
-			.mu-gallery-top{			
+			.tsh-gallery-top{			
 				display: inline;
 				float: left;
 				margin-top: 50px;
@@ -1460,7 +1460,7 @@
 					}
 				}
 			}	
-			.mu-gallery-body{
+			.tsh-gallery-body{
 				display: inline;
 				float: left;
 				width: 100%;
@@ -1468,33 +1468,33 @@
 				
 				ul{					
 					li{						
-						.mu-single-gallery{
+						.tsh-single-gallery{
 							display: inline;
 							float: left;
 							margin-bottom: 30px;
 							width: 100%;
-							.mu-single-gallery-item{
+							.tsh-single-gallery-item{
 								display: inline;
 								float: left;
 								width: 100%;
 								position: relative;
 								&:hover{
-									.mu-single-gallery-img{
+									.tsh-single-gallery-img{
 										img{
 											transform: scale(1.3);
 										}
 									}
-									.mu-single-gallery-info{
+									.tsh-single-gallery-info{
 										background-color: rgba(0,0,0,0.8);
 										opacity: 1;
 										transform: scale(1);
-										.mu-single-gallery-info-inner{
+										.tsh-single-gallery-info-inner{
 											transform: scale(1);
 										}
 									}
 								}
 
-								.mu-single-gallery-img{
+								.tsh-single-gallery-img{
 									display: inline;
 									float: left;
 									height: 220px;
@@ -1509,7 +1509,7 @@
 										@include transition(all 0.8s);
 									}
 								}
-								.mu-single-gallery-info{
+								.tsh-single-gallery-info{
 									background-color: rgba(0, 0, 0, 0.2);
 									bottom: 0;
 									height: 100%;
@@ -1523,7 +1523,7 @@
 									transform: scale(1);									
 									width: 100%;
 									@include transition(all 0.8s);
-									.mu-single-gallery-info-inner{
+									.tsh-single-gallery-info-inner{
 										position: absolute;
 										bottom: 0;										
 										left: 0;
@@ -1574,21 +1574,21 @@
  CONTACT PAGE
 ====================*/
 
-#mu-contact{
+#tsh-contact{
 	display: inline;
 	float: left;
 	padding: 100px 0;
 	width: 100%;
-	.mu-contact-area{
+	.tsh-contact-area{
 		display: inline;
 		float: left;
 		width: 100%;
-		.mu-contact-content{
+		.tsh-contact-content{
 			display: inline;
 			float: left;
 			margin-top: 50px;
 			width: 100%;
-			.mu-contact-left{
+			.tsh-contact-left{
 				display: inline;
 				float: left;
 				width: 100%;
@@ -1633,7 +1633,7 @@
 					}
 				}					
 			}
-			.mu-contact-right{
+			.tsh-contact-right{
 				display: inline;
 				float: left;
 				width: 100%;
@@ -1652,12 +1652,12 @@
  ERROR PAGE
 ====================*/
 
-#mu-error{
+#tsh-error{
 	display: inline;
 	float: left;
 	padding: 100px 0;
 	width: 100%;	
-	.mu-error-area{
+	.tsh-error-area{
 		display: inline;
 		float: left;
 		width: 100%;

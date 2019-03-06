@@ -3,21 +3,21 @@
 
 
 
-#mu-footer{
+#tsh-footer{
 	display: inline;
 	float: left;
 	width: 100%;
-	.mu-footer-top{
+	.tsh-footer-top{
 		background-color: #333;
 		display: inline;
 		float: left;
 		padding: 50px 0;
 		width: 100%;
-		.mu-footer-top-area{
+		.tsh-footer-top-area{
 			display: inline;
 			float: left;
 			width: 100%;
-			.mu-footer-widget{
+			.tsh-footer-widget{
 				display: inline;
 				float: left;
 				width: 100%;
@@ -54,7 +54,7 @@
 				p{
 					color: #f9f9f9;
 				}
-				.mu-subscribe-form{
+				.tsh-subscribe-form{
 					display: inline;
 					float: left;
 					margin-top: 10px;
@@ -71,7 +71,7 @@
 						@include transition(all 0.5s);
 						
 					}
-					.mu-subscribe-btn{
+					.tsh-subscribe-btn{
 						color: #fff;
 						border: medium none;
 						border-radius: 4px;						
@@ -92,13 +92,13 @@
 			}
 		}
 	}
-	.mu-footer-bottom{
+	.tsh-footer-bottom{
 		background-color: #222;
 		display: inline;
 		float: left;
 		padding: 25px 0; 
 		width: 100%;
-		.mu-footer-bottom-area{
+		.tsh-footer-bottom-area{
 			display: inline;
 			float: left;			
 			text-align: center;

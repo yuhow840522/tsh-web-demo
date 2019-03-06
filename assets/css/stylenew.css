@@ -1,0 +1,242 @@
+/*
+    template name : Tsh-Web-2019
+    Author : Yuhow Kang
+    Version: 1.0
+*/
+
+/* Table of Content
+======================================================================================================================================================================================================================================
+#BASIC TYPOGRAPHY
+#HEADER SECTION
+#NAVBAR SECTION
+======================================================================================================================================================================================================================================
+*/
+
+/* BASE - Base tyles, Variables, Mixins, etc. */
+body {
+    background-color: #ffffff;
+    font-family: "Apple LiGothic Medium", "Microsoft YaHei", "Roboto", sans-serif;
+    color: #333333;
+    font-size: 16px;
+    overflow-x: hidden;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.no-border {
+    border: none;
+}
+
+/* MODULES - Individual site components */
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+
+li a:hover {
+    color: #d61e1e;
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+a:hover,
+a:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat", sans-serif;
+} */
+
+h2 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    margin: 0;
+}
+
+img {
+    border: none;
+}
+
+.tsh-read-more-btn {
+    border: 1px solid #000;
+    border-radius: 12px;
+    color: #000;
+
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.tsh-read-more-btn:hover,
+.tsh-read-more-btn:focus {
+    color: #fff;
+    border: 1px solid #fff;
+    background: #01bafd;
+}
+
+/* .tsh-post-btn {
+    background-color: transparent;
+    border: 1px solid #ccc;
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px 18px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.tsh-post-btn:hover,
+.tsh-post-btn:focus {
+    color: #fff;
+} */
+
+/* LAYOUTS - Page layout styles */
+/*============================================================================================================
+HEADER SECTION
+==============================================================================================================*/
+#tsh-header {
+    background-color: #f8f8f8;
+    /* display: block; */
+    /* float: left; */
+    /* width: 100%; */
+    padding: 10px 0;
+}
+
+#tsh-header .tsh-header-top-left {
+    display: inline;
+}
+
+#tsh-header .tsh-header-top-right {
+    display: inline;
+    text-align: right;
+}
+
+#tsh-header .tsh-header-top-left .tsh-top-contact-nav,
+#tsh-header .tsh-header-top-right .tsh-top-contact-nav {
+    display: inline-block;
+}
+
+#tsh-header .tsh-header-top-left .tsh-top-contact-nav li,
+#tsh-header .tsh-header-top-right .tsh-top-contact-nav li {
+    display: inline;
+}
+
+#tsh-header .tsh-header-top-right .tsh-top-contact-nav {
+    float: right;
+}
+
+#tsh-header .tsh-header-top-left .tsh-top-contact-nav li a,
+#tsh-header .tsh-header-top-right .tsh-top-contact-nav li a {
+    display: inline-block;
+    font-size: 14px;
+    padding: 0 8px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+/* bootstrap 4.2.1 revise for header */
+#tsh-header .col-xs-6 {
+    width: 50%;
+}
+
+/*============================================================================================================
+NAVBAR SECTION
+==============================================================================================================*/
+#tsh-menu {
+    display: inline;
+    float: left;
+    width: 100%;
+}
+
+.tsh-logo {
+    height: 50px;
+}
+
+#tsh-menu .navbar-header .navbar-brand {
+    color: #333;
+    font-family: "Montserrat", sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 20px;
+    letter-spacing: 0.3px;
+}
+
+#tsh-menu .navbar-header .navbar-brand i {
+    font-size: 35px;
+}
+
+#tsh-menu .navbar-header .navbar-brand span {
+    margin-left: 4px;
+}
+
+#tsh-menu .navbar-default {
+    background-color: #fff;
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 0px;
+}
+
+#tsh-menu .navbar-default .navbar-nav li>a {
+    border-bottom: 2px solid transparent;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    margin-bottom: -1px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+#tsh-menu .navbar-default .navbar-nav li #tsh-search-icon:hover,
+#tsh-menu .navbar-default .navbar-nav li #tsh-search-icon:focus {
+    border: none;
+}
+
+#tsh-menu .navbar-default .navbar-nav li .dropdown-menu {
+    border-radius: 0px;
+}
+
+#tsh-menu .navbar-default .navbar-nav li .dropdown-menu li a {
+    color: #333333;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#tsh-menu .navbar-default .navbar-nav li .dropdown-menu li a:hover,
+#tsh-menu .navbar-default .navbar-nav li .dropdown-menu li a:focus {
+    color: #fff;
+}
+
+#tsh-menu .navbar-default .navbar-nav .open a:hover,
+#tsh-menu .navbar-default .navbar-nav .open a:focus {
+    color: #fff;
+}
