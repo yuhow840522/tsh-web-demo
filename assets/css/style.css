@@ -147,6 +147,10 @@ img {
   color: #fff;
 }
 
+/* .clearfix {
+  overflow: auto;
+} */
+
 /* LAYOUTS - Page layout styles */
 /*============================================================================================================
 HEADER SECTION
@@ -504,18 +508,42 @@ NAVBAR SECTION
   padding: 35px 25px;
   /* margin: 3px; */
   text-align: center;
+  -webkit-transition: all 0.75s;
+  -moz-transition: all 0.75s;
+  -ms-transition: all 0.75s;
+  -o-transition: all 0.75s;
+  transition: all 0.75s;
 }
+#tsh-service .tsh-service-single:hover {
+  background-color: #f3ab8e;
+  color: rgb(32, 30, 30);
+} 
 
 #tsh-service .tsh-service-single:nth-child(2) {
   background-color: #94cf1c;
+}
+
+#tsh-service .tsh-service-single:nth-child(2):hover {
+  background-color: #bbdb7a;
+  color: rgb(32, 30, 30);
 }
 
 #tsh-service .tsh-service-single:nth-child(3) {
   background-color: #27b3f8;
 }
 
+#tsh-service .tsh-service-single:nth-child(3):hover {
+  background-color: #97cae4;
+  color: rgb(32, 30, 30);
+}
+
 #tsh-service .tsh-service-single:nth-child(4) {
   background-color: #f1bc2b;
+}
+
+#tsh-service .tsh-service-single:nth-child(4):hover {
+  background-color: #e9d59e;
+  color: rgb(32, 30, 30);
 }
 
 #tsh-service .tsh-service-single span {
@@ -953,11 +981,11 @@ NEWS & ISSUE SECTION
   display: inline;
 }
 
-#tsh-newsandissue .tsh-newsandissue-area .tsh-newsandissue-content .tsh-newsandissue-single:hover .tsh-newsandissue-img .tsh-newsandissue-social {
+#tsh-newsandissue .tsh-newsandissue-area .tsh-newsandissue-content .tsh-newsandissue-single .tsh-newsandissue-img:hover .tsh-newsandissue-social {
   opacity: 1;
 }
 
-#tsh-newsandissue .tsh-newsandissue-area .tsh-newsandissue-content .tsh-newsandissue-single:hover .tsh-newsandissue-img .tsh-newsandissue-social a {
+#tsh-newsandissue .tsh-newsandissue-area .tsh-newsandissue-content .tsh-newsandissue-single .tsh-newsandissue-img:hover  .tsh-newsandissue-social a {
   -moz-transform: translateY(0%);
   -o-transform: translateY(0%);
   -ms-transform: translateY(0%);
@@ -982,7 +1010,7 @@ NEWS & ISSUE SECTION
   left: 0;
   opacity: 0;
   overflow: hidden;
-  padding-top: 43.5%;
+  padding-top: 30%;
   position: absolute;
   right: 0;
   text-align: center;
@@ -1018,7 +1046,9 @@ NEWS & ISSUE SECTION
 #tsh-newsandissue .tsh-newsandissue-area .tsh-newsandissue-content .tsh-newsandissue-single .tsh-newsandissue-img .tsh-newsandissue-social a:hover,
 #tsh-newsandissue .tsh-newsandissue-area .tsh-newsandissue-content .tsh-newsandissue-single .tsh-newsandissue-img .tsh-newsandissue-social a:focus {
   background-color: #FFF;
+  color: rgb(236, 143, 143);
 }
+
 
 #tsh-newsandissue .tsh-newsandissue-area .tsh-newsandissue-content .tsh-newsandissue-single .tsh-newsandissue-single-content {
   display: inline;
@@ -2859,4 +2889,23 @@ NEWS & ISSUE SECTION
   #tsh-error .tsh-error-area h2 {
     font-size: 100px;
   }
+}
+/* 
+======================================================
+===================================================
+temp ==
+=====================
+====================== */
+
+.img-temp-self-1 {
+  max-width:100%;
+  display: inline;
+  border: 20px solid rgb(231, 136, 136);
+}
+
+.box1 {
+  margin: 0px auto;
+  padding: 20px 0px;
+  background: rgb(226, 223, 223);
+  text-align: center;
 }

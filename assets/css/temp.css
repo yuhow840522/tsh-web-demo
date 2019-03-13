@@ -1,0 +1,14 @@
+/* .img-60per > img{
+    max-width: 60%;
+    margin: 20px auto;
+} */
+
+#tsh-service-self-img {
+    display: inline;
+    float: left;
+    width: 100%;
+    height: 500px;
+}
+.img-temp-self-1 {
+    border: 20px solid #000;
+}
