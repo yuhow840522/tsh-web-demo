@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="Hang-TW">
+
+<head>
+  <title>表單測試</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- <link href="../tsh-web/tsh-web-demo/assets/css/bootstrap.css" rel="stylesheet" /> -->
+  <link rel="stylesheet" href="css/healthcheck.css" />
+  <!-- meta description -->
+  <meta name="keywords" content="戒菸" />
+  <meta name="description" content="「衛生福利部國民健康署戒菸專線服務中心」成立於2003年，具備心理輔導、社會工作及教育等相關科系的專業人員提供服務，提供戒菸諮詢及相關資訊，協助戒菸者擬訂戒菸策略與計畫。" />
+  <meta name="subject" content="戒菸專線服務中心 - 提供您專業的戒菸諮商團隊" />
+  <meta name="robots" content="index,follow" />
+  <meta name="rating" content="general" />
+  <meta name="author" content="衛生福利部國民健康署戒菸專線服務中心" />
+  <meta name="copyright" content="Copyright © 2018" />
+  <meta name="revisit-after" content="7 days" />
+  <!-- Facebook description -->
+  <meta property="og:site_name" content="戒菸專線服務中心" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="衛生福利部國民健康署戒菸專線服務中心" />
+  <meta property="og:description" content="提供您專業的戒菸諮商團隊" />
+  <meta property="og:url" content="http://www.tsh.org.tw" />
+  <meta property="og:image" content="http://www.tsh.org.tw/images/_tw/*" />
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/health-calculate.js"></script>
+</head>
+
+<body>
+
+  <!-- 量表 -->
+  <div class="Healthcheck-bar">
+    <div class="container" style="margin: 20px auto; font-size: 24px;"><a href="../index.html">回首頁</a></div>
+    <h3 class="Healthcheck-title">【尼古丁成癮度量表】</h3>
+    <!-- Q1 -->
+    <div class="Healthcheck-form">
+      <label class="Healthcheck-q">1.起床後多久抽第一支菸？</label>
+      <label for="healthcheck_id_Q11" class="">
+        <input id="healthcheck_id_Q11" type="radio" name="healthcheck$Q1" value="3" checked />
+        <p class="ans-text">5分鐘以內</p>
+        <img src="img/comment-icon.png" />
+      </label>
+      <label for="healthcheck_id_Q12" class="">
+        <input id="healthcheck_id_Q12" type="radio" name="healthcheck$Q1" value="2" />
+        <p class="ans-text">5～30分鐘</p>
+        <img src="img/comment-icon.png" />
+      </label>
+      <label for="healthcheck_id_Q13" class="">
+        <input id="healthcheck_id_Q13" type="radio" name="healthcheck$Q1" value="1" />
+        <p class="ans-text">31～60分鐘</p>
+        <img src="img/comment-icon.png" />
+      </label>
+      <label for="healthcheck_id_Q14" class="">
+        <input id="healthcheck_id_Q14" type="radio" name="healthcheck$Q1" value="0" />
+        <p class="ans-text">60分鐘以上</p>
+        <img src="img/comment-icon.png" />
+      </label>
+    </div>
+    <!-- Q2 -->
+    <div class="Healthcheck-form">
+      <label class="Healthcheck-q">2.在禁菸區不能吸菸會難以忍受嗎？</label>
+      <label for="healthcheck_id_Q21" class="">
+        <input id="healthcheck_id_Q21" type="radio" name="healthcheck$Q2" value="1" checked />
+        <p class="ans-text">是</p>
+        <img src="img/comment-icon.png" />
+      </label>
+      <label for="healthcheck_id_Q22" class="">
+        <input id="healthcheck_id_Q22" type="radio" name="healthcheck$Q2" value="0" />
+        <p class="ans-text">否</p>
+        <img src="img/comment-icon.png" />
+      </label>
+    </div>
+    <!-- Q3 -->
+    <div class="Healthcheck-form">
+      <label class="Healthcheck-q">3.哪根菸最難放棄？</label>
+      <label for="healthcheck_id_Q31" class="">
+        <input id="healthcheck_id_Q31" type="radio" name="healthcheck$Q3" value="1" checked />
+        <p class="ans-text">早上第一支菸</p>
+        <img src="img/comment-icon.png" />
+      </label>
+      <label for="healthcheck_id_Q32" class="">
+        <input id="healthcheck_id_Q32" type="radio" name="healthcheck$Q3" value="0" />
+        <p class="ans-text">其他</p>
+        <img src="img/comment-icon.png" />
+      </label>
+    </div>
+    <!-- Q4 -->
+    <div class="Healthcheck-form">
+      <label class="Healthcheck-q">4.一天最多抽幾支菸？</label>
+      <label for="healthcheck_id_Q41" class="">
+        <input id="healthcheck_id_Q41" type="radio" name="healthcheck$Q4" value="3" checked />
+        <p class="ans-text">31支以上</p>
+        <img src="img/comment-icon.png" />
+      </label>
+      <label for="healthcheck_id_Q42" class="">
+        <input id="healthcheck_id_Q42" type="radio" name="healthcheck$Q4" value="2" />
+        <p class="ans-text">21-30支</p>
+        <img src="img/comment-icon.png" />
+      </label>
+      <label for="healthcheck_id_Q43" class="">
+        <input id="healthcheck_id_Q43" type="radio" name="healthcheck$Q4" value="1" />
+        <p class="ans-text">11-20支</p>
+        <img src="img/comment-icon.png" />
+      </label>
+      <label for="healthcheck_id_Q44" class="">
+        <input id="healthcheck_id_Q44" type="radio" name="healthcheck$Q4" value="0" />
+        <p class="ans-text">10支或更少</p>
+        <img src="img/comment-icon.png" />
+      </label>
+    </div>
+    <!-- Q5 -->
+    <div class="Healthcheck-form">
+      <label class="Healthcheck-q">5.起床後幾小時內是一天中抽最多菸的時候？</label>
+      <label for="healthcheck_id_Q51" class="">
+        <input id="healthcheck_id_Q51" type="radio" name="healthcheck$Q5" value="1" checked />
+        <p class="ans-text">是</p>
+        <img src="img/comment-icon.png" />
+      </label>
+      <label for="healthcheck_id_Q52" class="">
+        <input id="healthcheck_id_Q52" type="radio" name="healthcheck$Q5" value="0" />
+        <p class="ans-text">否</p>
+        <img src="img/comment-icon.png" />
+      </label>
+    </div>
+    <!-- Q6 -->
+    <div class="Healthcheck-form">
+      <label class="Healthcheck-q">6.當嚴重生病時，幾乎每天臥病在床還抽菸嗎？</label>
+      <label for="healthcheck_id_Q61" class="">
+        <input id="healthcheck_id_Q61" type="radio" name="healthcheck$Q6" value="1" checked />
+        <p class="ans-text">是</p>
+        <img src="img/comment-icon.png" />
+      </label>
+      <label for="healthcheck_id_Q62" class="">
+        <input id="healthcheck_id_Q62" type="radio" name="healthcheck$Q6" value="0" />
+        <p class="ans-text">否</p>
+        <img src="img/comment-icon.png" />
+      </label>
+    </div>
+    <!-- calculate -->
+    <div class="Healthcheck-submit tooltip">
+      <input type="submit" name="healthcheck$btnCal" value="計算結果" id="submit-button" class="submit-button" />
+      <img src="img/submit.png" alt="提交表單" class="submit-icon tooltip" />
+      <span class="tooltiptext">計算結果</span>
+    </div>
+  </div>
+  <!-- result -->
+  <div class="Healthcheck-result">
+    <p class="Health-grade"></p>
+    <p class="Health-suggestion"></p>
+    <div class="Healthcheck-reset tooltip">
+      <input type="submit" name="" value="重新填寫" id="reset-button" class="reset-button" />
+      <img src="img/redo_orange.jpg" alt="重新填寫" class="reset-icon tooltip" />
+      <span class="tooltiptext">重新填寫</span>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,85 @@
+.Healthcheck-bar,.Healthcheck-result {
+    max-width: 60%;
+    margin: 0 auto;
+    text-align: left;
+    border: 1px solid #000;
+}
+
+.Healthcheck-q {
+    display: block;
+}
+.Healthcheck-result {
+    border: 1px solid #000;
+    margin-bottom: 20px;
+}
+
+/* HIDE RADIO & SUBMIT BUTTON*/
+[type=radio],
+[type=submit] {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* IMAGE STYLES */
+[type=radio]+p+img {
+    cursor: pointer;
+}
+
+[type=submit]+img {
+    margin: 20px 20px;
+    cursor: pointer;
+    width: 64px;
+    height: 64px;
+}
+
+/* CHECKED STYLES */
+[type=radio]:checked+p+img {
+    /* outline: 2px solid #f00; */
+    background: url("../img/comment-icon拷貝.png");
+    /* border: 1px solid #000; */
+}
+.ans-text {
+    font-size: 12px;
+    display: inline;
+    position: absolute;
+    /* border: 1px solid #fff; */
+    margin: 45px 30px;
+    
+}
+
+/* TOOLTIP SETTING */
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: rgb(235, 198, 35);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    bottom: 50%;
+    left:95%;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 0.7;
+}
+
+.Healthcheck-reset {
+    padding-left: 120px;
+    display: none;
+}
+
+.Healthcheck-reset.tooltip.active{
+    display: inline-block;
+}
